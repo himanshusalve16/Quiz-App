@@ -76,70 +76,67 @@ const questions = [
             "Object"
         ],
         correctAnswer: 2
+    },
+    {
+        question: "Which keyword is used to declare a variable in JavaScript?",
+        options: [
+            "var",
+            "let",
+            "const",
+            "variable"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "What will `typeof null` return in JavaScript?",
+        options: [
+            "'null'",
+            "'undefined'",
+            "'object'",
+            "'number'"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "Which method is used to add a new element to the end of an array?",
+        options: [
+            "push()",
+            "pop()",
+            "shift()",
+            "unshift()"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Which of the following is NOT a valid way to define a function in JavaScript?",
+        options: [
+            "Function declaration",
+            "Function expression",
+            "Arrow function",
+            "Function component"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "Which symbol is used for single-line comments in JavaScript?",
+        options: [
+            "//",
+            "/* */",
+            "#",
+            "--"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "Which built-in method converts a JSON string into a JavaScript object?",
+        options: [
+            "JSON.parse()",
+            "JSON.stringify()",
+            "parseJSON()",
+            "stringifyJSON()"
+        ],
+        correctAnswer: 0
     }
-    [
-        {
-            "question": "Which keyword is used to declare a variable in JavaScript?",
-            "options": [
-                "var",
-                "let",
-                "const",
-                "variable"
-            ],
-            "correctAnswer": 3
-        },
-        {
-            "question": "What will `typeof null` return in JavaScript?",
-            "options": [
-                "'null'",
-                "'undefined'",
-                "'object'",
-                "'number'"
-            ],
-            "correctAnswer": 2
-        },
-        {
-            "question": "Which method is used to add a new element to the end of an array?",
-            "options": [
-                "push()",
-                "pop()",
-                "shift()",
-                "unshift()"
-            ],
-            "correctAnswer": 0
-        },
-        {
-            "question": "Which of the following is NOT a valid way to define a function in JavaScript?",
-            "options": [
-                "Function declaration",
-                "Function expression",
-                "Arrow function",
-                "Function component"
-            ],
-            "correctAnswer": 3
-        },
-        {
-            "question": "Which symbol is used for single-line comments in JavaScript?",
-            "options": [
-                "//",
-                "/* */",
-                "#",
-                "--"
-            ],
-            "correctAnswer": 0
-        },
-        {
-            "question": "Which built-in method converts a JSON string into a JavaScript object?",
-            "options": [
-                "JSON.parse()",
-                "JSON.stringify()",
-                "parseJSON()",
-                "stringifyJSON()"
-            ],
-            "correctAnswer": 0
-        }
-    ]
-    
 ];
 
 // Sound Effects (optional - uncomment if you want to use sounds)
