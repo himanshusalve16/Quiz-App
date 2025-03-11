@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Quiz Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Welcome Screen -->
+        <div id="welcome-screen">
+            <div class="welcome-icon">
+                <i class="fas fa-brain"></i>
+            </div>
+            <h1>Brain Teaser Quiz</h1>
+            <p>Test your knowledge with our timed quiz. Answer quickly for more points!</p>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-stopwatch"></i>
+                    <span>Time-based scoring</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Instant feedback</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Performance tracking</span>
+                </div>
+            </div>
+            <button id="start-btn"><i class="fas fa-play"></i> Start Quiz</button>
+        </div>
+
+        <!-- Quiz Container -->
+        <div id="quiz-container" class="hide">
+            <div class="quiz-header">
+                <h2 id="question-text">Question text will appear here</h2>
+                <div id="timer-container">
+                    <div id="timer-bar"></div>
+                    <span id="timer-text">10</span>
+                </div>
+            </div>
+            <div id="options-container">
+                <!-- Options will be inserted here by JavaScript -->
+            </div>
+            <div class="quiz-footer">
+                <span id="question-number">Question 1 of 5</span>
+                <span id="current-score">Score: 0</span>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" id="progress-indicator"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="hide">
+            <div class="results-icon">
+                <i class="fas fa-trophy"></i>
+            </div>
+            <h2>Quiz Completed!</h2>
+            <div id="score-details">
+                <p>Your final score: <span id="final-score">0</span> points</p>
+                <p>Time bonus points: <span id="time-bonus">0</span> points</p>
+                <p>Total score: <span id="total-score">0</span> points</p>
+            </div>
+            <div id="performance-message"></div>
+            <div class="action-buttons">
+                <button id="restart-btn"><i class="fas fa-redo"></i> Restart Quiz</button>
+                <button id="share-btn"><i class="fas fa-share-alt"></i> Share Result</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Created with <i class="fas fa-heart"></i> by Himanshu</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
